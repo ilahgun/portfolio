@@ -27,6 +27,7 @@ const projectsData = [
       "Laravel",
       "Bootstrap",
       "Postman",
+      "MySql Workbench",
       "MySQL",
       "XAMPP",
     ],
@@ -118,7 +119,15 @@ const projectsData = [
         show: false,
       },
     ],
-    tag: ["JSX", "styled.css", "Javascript", "React.Js", "axios", "vercel"],
+    tag: [
+      "JSX",
+      "styled.css",
+      "Javascript",
+      "React.Js",
+      "axios",
+      "redux",
+      "vercel",
+    ],
   },
   {
     id: 7,
@@ -132,7 +141,15 @@ const projectsData = [
         show: false,
       },
     ],
-    tag: ["JSX", "styled.css", "Javascript", "React.Js", "axios", "vercel"],
+    tag: [
+      "JSX",
+      "styled.css",
+      "Javascript",
+      "React.Js",
+      "axios",
+      "redux",
+      "vercel",
+    ],
   },
 ];
 
