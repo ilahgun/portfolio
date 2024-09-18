@@ -5,6 +5,7 @@ import AboutMe from "../components/AboutMe/AboutMe";
 import Experience from "../components/Experience/Experience";
 import Education from "../components/Education/Education";
 import Projects from "../components/Projects/Projects";
+import Certificate from "../components/Certificate/certificate";
 import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
 import FooterMain from "../components/Footer/FooterMain";
 
@@ -34,6 +35,7 @@ const Portfolio = () => {
             <Experience />
             <Education />
             <Projects />
+            <Certificate />
             <FooterMain />
           </>
         }

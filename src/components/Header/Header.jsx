@@ -37,7 +37,7 @@ const Header = () => {
           </motion.div>
           <motion.div whileHover={{ scale: 1.08 }} whileTap={{ scale: 0.9 }}>
             <Link
-              to="/CV_Gunawan.pdf"
+              to="/resume_Gunawan.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

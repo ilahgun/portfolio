@@ -21,6 +21,10 @@ const Navigation = () => {
       name: "Projects",
       url: "projects",
     },
+    {
+      name: "Certificate",
+      url: "certificate",
+    },
   ];
 
   useEffect(() => {

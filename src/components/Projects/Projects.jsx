@@ -98,9 +98,9 @@ const Projects = () => {
             </li>
           ))}
         </ul>
-        {/* <div className="mt-12">
+        <div className="mt-12">
           <Link
-            to={"/"}
+            to={"/projects"}
             className="inline-flex items-center font-medium leading-tight text-slate-200 group"
           >
             <span>
@@ -115,7 +115,7 @@ const Projects = () => {
               </span>
             </span>
           </Link>
-        </div> */}
+        </div>
       </div>
     </section>
   );

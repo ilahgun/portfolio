@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Portfolio from "./pages/Portfolio";
+import FullProjects from "./pages/FullProjects";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -15,7 +16,7 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Portfolio />} />
-        <Route path="/projects" element={"ss"} />
+        <Route path="/projects" element={<FullProjects />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
     </>
