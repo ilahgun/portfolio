@@ -14,10 +14,10 @@ const fullProjects = () => {
   };
   return (
     <section
-      id="fullProjectss"
+      id="FullProject"
       className="pt-10 mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     >
-      {/* <NavTitle title={"allFullProjects"} /> */}
+      <NavTitle title={"Full-Project"} />
 
       <div>
         <ul className="group/list mt-8">

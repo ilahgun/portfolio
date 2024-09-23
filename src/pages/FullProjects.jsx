@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../components/Layout/Layout";
-import Header from "../components/Header/Header";
 import FullProject from "../components/FullProject/FullProject";
 import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
 import FooterMain from "../components/Footer/FooterMain";
+import HeaderPro from "../components/Header/HeaderPro";
 
 const FullProjects = () => {
   const mouseX = useMotionValue(0);
@@ -22,7 +22,7 @@ const FullProjects = () => {
       <Layout
         leftContent={
           <>
-            <Header />
+            <HeaderPro />
           </>
         }
         rightContent={
