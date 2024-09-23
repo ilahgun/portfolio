@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AboutMe = () => {
   return (
     <section id="about-me">
-      <NavTitle title={"About-Me"} />
+      <NavTitle title={"About Me"} />
       <div className="font-normal text-md">
         <p className="mb-4">
           Currently my activity is volunteering at an orphanage in my
