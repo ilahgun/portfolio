@@ -14,12 +14,6 @@ import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
 const App = () => {
   return (
     <>
-      <head>
-        <meta
-          name="google-site-verification"
-          content="ERKllSAZ7_48bn1Ux4esIUmhC9NrPqdFhLXX0eZ8YJk"
-        />
-      </head>
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/projects" element={<FullProjects />} />
