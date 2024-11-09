@@ -8,33 +8,39 @@ const AboutMe = () => {
       <NavTitle title={"About Me"} />
       <div className="font-normal text-md">
         <p className="mb-4">
-          Currently my activity is volunteering at an orphanage in my
-          neighborhood called Khairul Ummah and being the administrator of the
-          orphanage, if I have time I develop the orphanage website
+          Currently, I work at
           <Link
             className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            to={"https://github.com/ilahgun/khairul-ummah"}
+            to={"https://happyplayindonesia.com"}
             target="_blank"
           >
             {" "}
-            Khairul Ummah
+            Happy Play Indonesia
           </Link>{" "}
-          to provide information about the orphanage, manage orphanage data and
-          become a platform for donating to the orphanage where I volunteer.
-          Apart from that I am also actively exploring the latest technologies,
-          because I believe that technology continues to develop. Therefore I am
-          ready to continue to develop and contribute in the field of
-          programming with enthusiasm and dedication.
+          <Link
+            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+            to={"https://happyplayindonesia.com/our-company/"}
+            target="_blank"
+          >
+            {" "}
+            (PT. Inovasi Wahana Anak Indonesia)
+          </Link>{" "}
+          , and at Happy Play I work in the Digital Marketing division as a{" "}
+          <b>Web Developer</b>. In addition to developing the web, I also work
+          on other things such as creating automation using Imacross, becoming a
+          Zoom operator, and others.
         </p>
         <p className="mb-4">
-          Although I am a full-stack web developer, my focus is more on
-          Front-end because I am not confident in my ability to create database
+          When I'm at home or on vacation, I also actively explore the latest
+          technologies, because I believe technology continues to develop.
+          Therefore, I am ready to continue to develop and contribute to the
+          field of programming, especially <b>Web Development</b> with
+          enthusiasm and dedication.
+        </p>
+        <p className="mb-4">
+          Although I am a full-stack web developer, my focus is more on the
+          front end because I am less confident in my ability to create database
           designs (unless there is already a database design :p).
-        </p>
-        <p className="mb-4">
-          I use my free time to refresh by playing games and watching movies, if
-          I am lazy to play games and watch movies I use my free time to
-          sleep...
         </p>
       </div>
 
