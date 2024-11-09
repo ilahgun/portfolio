@@ -1,6 +1,31 @@
 const experienceData = [
   {
     id: 1,
+    title: "Web Developer",
+    exTitle_2: null,
+    company: "Happy Play Indonesia (PT. Inovasi Wahana Anak Indonesia)",
+    location: null,
+    showcase:
+      "https://www.linkedin.com/company/pt-inovasi-wahana-anak-happy-play-indonesia/mycompany/",
+    startDate: "Okt 2024",
+    endDate: "Now",
+    description:
+      "Developing Websites using WordPress and creating automation using Imacross",
+    links: [
+      {
+        show: true,
+        data: [
+          {
+            name: "Happy Play Indonesia",
+            url: "https://happyplayindonesia.com/",
+          },
+        ],
+      },
+    ],
+    tags: ["Wordpress", "Elementor", "Astra Theme", "RankMath", "Imacross"],
+  },
+  {
+    id: 2,
     title: "Full-Stack Web Developer",
     exTitle_2: null,
     company: "Infinite Learning",
@@ -41,7 +66,7 @@ const experienceData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Full-Stack Web Developer",
     exTitle_2: null,
     company: "NF Computer",
@@ -82,7 +107,7 @@ const experienceData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "IT Support",
     exTitle_2: null,
     company: "Koperasi Karyawan Indocement (KKI)",
