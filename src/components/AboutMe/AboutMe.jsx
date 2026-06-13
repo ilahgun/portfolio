@@ -7,7 +7,7 @@ const AboutMe = () => {
     <section id="about-me">
       <NavTitle title={"About Me"} />
       <div className="font-normal text-md">
-        <p className="mb-4">
+        {/*<p className="mb-4">
           Currently, I work at
           <Link
             className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
@@ -29,18 +29,24 @@ const AboutMe = () => {
           <b>Web Developer</b>. In addition to developing the web, I also work
           on other things such as creating automation using Imacross, becoming a
           Zoom operator, and others.
+        </p>*/}
+        <p className="mb-4">
+          I am a Full-stack Web Developer with more than 2 years of experience
+          in developing, maintaining, and optimizing websites and web
+          applications. Throughout my journey, I have worked with technologies
+          such as WordPress, React.js, Node.js, Express.js, and Laravel to build
+          responsive and user-friendly digital solutions. I also have experience
+          in SEO optimization, API integration, and collaborating on development
+          projects using GitHub.
         </p>
         <p className="mb-4">
-          When I'm at home or on vacation, I also actively explore the latest
-          technologies, because I believe technology continues to develop.
-          Therefore, I am ready to continue to develop and contribute to the
-          field of programming, especially <b>Web Development</b> with
-          enthusiasm and dedication.
-        </p>
-        <p className="mb-4">
-          Although I am a full-stack web developer, my focus is more on the
-          front end because I am less confident in my ability to create database
-          designs (unless there is already a database design :p).
+          Outside of professional work, I actively explore new technologies and
+          web development trends to continuously improve my skills and stay up
+          to date with industry standards. I enjoy turning ideas into functional
+          web applications and am always eager to learn, grow, and contribute to
+          meaningful projects. Although I have experience across both frontend
+          and backend development, I am particularly interested in creating
+          intuitive user interfaces and delivering great user experiences.
         </p>
       </div>
 
