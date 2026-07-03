@@ -36,7 +36,6 @@ const Portfolio = () => {
             <Education />
             <Projects />
             <Certificate />
-            <FooterMain />
           </>
         }
       />
