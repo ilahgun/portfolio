@@ -8,7 +8,7 @@ const experienceData = [
     showcase:
       "https://www.linkedin.com/company/pt-inovasi-wahana-anak-happy-play-indonesia/mycompany/",
     startDate: "Okt 2024",
-    endDate: "Now",
+    endDate: "Jun 2026",
     description:
       "Developing Websites using WordPress and creating automation using Imacross",
     links: [
